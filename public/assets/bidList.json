@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "item_name": "2 BHK flat",
+        "item_description": "It's a fantastic 2 BHK flat in the main city of Newyork.",
+        "amount": 10000,
+        "max_value": 30000,
+        "keywords": [
+            "Home",
+            "2 BHK",
+            "2 bed room flat",
+            "Near main city",
+            "Newyork"
+        ]
+    },
+    {
+        "id": 2,
+        "item_name": "Graphic Painting",
+        "item_description": "A well drawn paint by a famous painter situated in Sydney, Australia.",
+        "amount": 2000,
+        "max_value": 10000,
+        "keywords": [
+            "Painting",
+            "Graphic Art",
+            "Art"
+        ]
+    },
+    {
+        "id": 3,
+        "item_name": "Old King Crown",
+        "item_description": "A king crown which had an history of around 700 years from the persian dinesty.",
+        "amount": 15000,
+        "max_value": 50000,
+        "keywords": [
+            "Crown",
+            "King Crown",
+            "Old Items",
+            "Persian"
+        ]
+    },
+    {
+        "id": 4,
+        "item_name": "PILICHAMUNDI ON TIGER",
+        "item_description": "This vintage  idol of a deity riding a Tiger is a Pilichamundi. Riding a tiger, the deity here personifies the spirit of a Pilichamundi.",
+        "amount": 800,
+        "max_value": 2500,
+        "keywords": [
+            "Idol",
+            "Indian Idols",
+            "Indian Arts",
+            "Indian Culture"
+        ]
+    },
+    {
+        "id": 5,
+        "item_name": "1909-S Lincoln Wheat Penny LIGHTLY CIRCULATED",
+        "item_description": "Always treated as a poor relation to its predecessor having the initials V.D.B., the 1909-S cent without initial is actually much more challenging to find across all Mint State grades.",
+        "amount": 100,
+        "max_value": 5000,
+        "keywords": [
+            "Coins",
+            "American",
+            "Lincoln Coin",
+            "Old Coins"
+        ]
+    },
+    {
+        "id": 6,
+        "item_name": "2 BHK flat",
+        "item_description": "It's a fantastic 2 BHK flat in the main city of Newyork.",
+        "amount": 10000,
+        "max_value": 30000,
+        "keywords": [
+            "Home",
+            "2 BHK",
+            "2 bed room flat",
+            "Near main city",
+            "Newyork"
+        ]
+    },
+    {
+        "id": 7,
+        "item_name": "Graphic Painting",
+        "item_description": "A well drawn paint by a famous painter situated in Sydney, Australia.",
+        "amount": 2000,
+        "max_value": 10000,
+        "keywords": [
+            "Painting",
+            "Graphic Art",
+            "Art"
+        ]
+    },
+    {
+        "id": 8,
+        "item_name": "Old King Crown",
+        "item_description": "A king crown which had an history of around 700 years from the persian dinesty.",
+        "amount": 15000,
+        "max_value": 50000,
+        "keywords": [
+            "Crown",
+            "King Crown",
+            "Old Items",
+            "Persian"
+        ]
+    },
+    {
+        "id": 9,
+        "item_name": "PILICHAMUNDI ON TIGER",
+        "item_description": "This vintage  idol of a deity riding a Tiger is a Pilichamundi. Riding a tiger, the deity here personifies the spirit of a Pilichamundi.",
+        "amount": 800,
+        "max_value": 2500,
+        "keywords": [
+            "Idol",
+            "Indian Idols",
+            "Indian Arts",
+            "Indian Culture"
+        ]
+    },
+    {
+        "id": 10,
+        "item_name": "1909-S Lincoln Wheat Penny LIGHTLY CIRCULATED",
+        "item_description": "Always treated as a poor relation to its predecessor having the initials V.D.B., the 1909-S cent without initial is actually much more challenging to find across all Mint State grades.",
+        "amount": 100,
+        "max_value": 5000,
+        "keywords": [
+            "Coins",
+            "American",
+            "Lincoln Coin",
+            "Old Coins"
+        ]
+    }
+]
