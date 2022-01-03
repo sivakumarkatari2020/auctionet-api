@@ -18,9 +18,8 @@ function template(item){
     if(sessionStorage.uname && sessionStorage.ucurrency){
 
     }else{
-        let keysTemplate = ''
-        item.keywords.map(key => {keysTemplate+`<div class="card-key"><p>${key}</p></div>`})
-        console.log(keysTemplate);
+        //let keysTemplate = ''
+        //item.keywords.map(key => {keysTemplate+`<div class="card-key"><p>${key}</p></div>`})
         return `<div class="item-card">
                     <h2 class="card-title">${item.item_name}</h2>
                     <p class="card-desc">${item.item_description}</p>
@@ -30,7 +29,9 @@ function template(item){
                             <div class="card-amt">Max : ${item.max_value} USD</div>
                         </div>
                         <div class="card-keys">
-                            ${keysTemplate}
+                            ${
+                                item.keywords.map(key => `<div class="card-key"><p>${key}</p></div>`)
+                            }
                         </div>
                     </div>
                     <button class="card-btn card-act-btn" id="bidButton">Bid now</button>
