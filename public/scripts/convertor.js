@@ -9,17 +9,17 @@ class convertor{
 
     toEUR = async (amt) => {
         const result = await convertionRatio('USD_EUR');
-        return amt*result.USD_EUR;
+        return amt*result?.USD_EUR;
     }
 
     toSEK = async (amt) => {
         const result = await convertionRatio('USD_SEK');
-        return amt*result.USD_SEK;
+        return amt*result?.USD_SEK;
     }
 
     toGBP = async (amt) => {
         const result = await convertionRatio('USD_GBP');
-        return amt*result.USD_GBP;
+        return amt*result?.USD_GBP;
     }
 
     toUSD = async (fromCurr) => {

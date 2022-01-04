@@ -1,6 +1,6 @@
 //import axios from 'axios';
 
-let API_KEY = '13608e4126ef847f0ce2';
+let API_KEY = 'd738ba9a8dfbc78cea83';
 
 const convertionRatio = async (query) => {
     return fetch(`https://free.currconv.com/api/v7/convert?q=${query}&compact=ultra&apiKey=${API_KEY}`)

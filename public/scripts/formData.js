@@ -35,6 +35,8 @@ formBtn.addEventListener("click",(e)=>{
         btnSignup.style.display = "none";
         userName.innerText = `Hi ${uname}!`;
         userDetails.style.display = "flex";
+
+        window.location.reload();
     }
 })
 
@@ -44,4 +46,6 @@ btnLogout.addEventListener("click",(e)=>{
     sessionStorage.clear();
     btnSignup.style.display = "flex";
     userDetails.style.display = "none";
+
+    window.location.reload();
 })
