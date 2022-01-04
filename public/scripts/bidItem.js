@@ -1,7 +1,10 @@
 //Here we have code for biddng an item
 
-function bidItem(){
+let bidItems = document.getElementsByClassName('card-btn');
+console.log(bidItems);
+
+function bidItemFunc(){
     console.log("clicked");
 }
 
-export default bidItem;
+export default bidItemFunc;

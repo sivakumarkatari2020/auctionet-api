@@ -1,6 +1,6 @@
 //script for fetching the json data from '../assets/bidList.json'
 import convertor from './convertor.js';
-import bidItem from './bidItem.js';
+import bidItemFunc from './bidItem.js';
 
 let URL = './assets/bidList.json';
 
@@ -113,7 +113,7 @@ async function template(item){
                             ${keysTemplate}
                         </div>
                     </div>
-                    <button class="card-btn card-act-btn" id="bidButton">Bid now</button>
+                    <button class="card-btn card-act-btn" id="bidButton" onclick='${()=>bidItemFunc()}'>Bid now</button>
                 </div>`
     }
 }
