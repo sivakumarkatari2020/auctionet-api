@@ -35,8 +35,8 @@ async function template(item){
                         ${keysTemplate}
                     </div>
                 </div>
-                <button class="card-btn card-act-btn" id="bidButton">Bid now</button>
-            </div>`
+                </div>`
+                //<button class="card-btn card-act-btn" id="bidButton">Bid now</button>
         }
         if(sessionStorage.getItem('ucurrency') === 'EUR'){
             let convert = new convertor(1);
@@ -56,7 +56,6 @@ async function template(item){
                         ${keysTemplate}
                     </div>
                 </div>
-                <button class="card-btn card-act-btn" id="bidButton">Bid now</button>
             </div>`
         }
         if(sessionStorage.getItem('ucurrency') === 'GBP'){
@@ -77,7 +76,6 @@ async function template(item){
                         ${keysTemplate}
                     </div>
                 </div>
-                <button class="card-btn card-act-btn" id="bidButton">Bid now</button>
             </div>`
         }
 
@@ -95,7 +93,6 @@ async function template(item){
                             }
                         </div>
                     </div>
-                    <button class="card-btn card-act-btn" id="bidButton">Bid now</button>
                 </div>`
 
     }else{
@@ -113,7 +110,6 @@ async function template(item){
                             ${keysTemplate}
                         </div>
                     </div>
-                    <button class="card-btn card-act-btn" id="bidButton" onclick='${()=>bidItemFunc()}'>Bid now</button>
                 </div>`
     }
 }

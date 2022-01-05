@@ -2,6 +2,10 @@
 
 import convertionRatio from "./convertor.api.js";
 
+export function add(a,b){
+    return a+b;
+}
+
 class convertor{
     constructor(val){
         this.amt = val;
